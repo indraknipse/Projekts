@@ -2,14 +2,14 @@ html, body {
   height: 100%;
   margin: 0;
   padding: 0;
-  width: 200%;
-  font:;
-  background-color: #c0cec0;/* fona krāsa */
-   font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  font-family: Kristen ITC;
+  background-color: #89be89;/* fona krāsa */
+   
 }
 .topnav {
   overflow: hidden;
-  background-color: #333;
+  background-color: #7d6464;
   margin-top: 0px;
   display;flex;
   justify-content: space-around;
@@ -17,12 +17,12 @@ html, body {
 }
 .topnav a {
   flex:1;
-  diaplay:flex;
+  display:flex;
   justify-content: center;
   align-items: center;
   color: white;
   text-decoration: none;
-  font-size: 17px;
+  font-size: 22px;
 
 }
 .topnav a:hover {
@@ -39,7 +39,7 @@ html, body {
   position: fixed;
   top: 0;
   left: 0;
-  background-color: #333;
+  background-color: #7d6464;
 }
 .sidebar a {
   padding: 10px;
@@ -54,20 +54,20 @@ html, body {
 }
 main {
   margin-left: 200px;
-  padding: 0px 10px; 
-  color: black;
+  padding: 0px 20px; 
+  background-color: #319654;
 }
  footer {
-   background-color: #333;
+   background-color: #7d6464;
    color: white;
    text-align:center;
-   padding: 10px;
+   padding: 20px;
    position:fixed;
    bottom:0;
    width:200%;
  }
 button{
-  background-color: #adafd1;
+  background-color: #8285c4;
   color: white;
   border: none;
   padding: 10px 20px;
@@ -84,42 +84,42 @@ button:hover{
   background-color: #ddd;
 }
 h1 {
-color: #ffc96b; 
-font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  color: #ffc96b; 
+  font-family: Kristen ITC;
   font-size:4pc ;
 }
 p{
-color:#00ccff ;
-  font-size: 15px;
+   color:#060a74 ;
+   font-size: 15px;
 }
-  #saturs{
-    background-color: #87315a;
+#saturs{
+    background-color: #8d3f65;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
   }
 #saturs p{
-  color: #fff;
+  color: #e3cece;
   font-size: 16px;
 }
-#saturs img{
+#saturs img {
  display: block;
-  margin: 12px auto;
-  border-radius: 8px;
+  margin: 8px;
+  border-radius: 0auto;
 }
   #tabula{
-    background-color: #316687;
+    background-color: #bdceab;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
   }
   #canva{
-    background-color: #318736;
+    background-color: #77c07a;
     padding: 20px;
     border-radius: 10px;
     margin-bottom: 20px;
   }
-#tabula table{
+#tabula table {
   width: 100%;
   border-collapse: collapse;
   background-color: white;
@@ -127,11 +127,14 @@ color:#00ccff ;
   
 }
 #tabula td{
- padding: 10px;
+  padding: 10px;
   text-align: center;
 }
-#tabula tr:nth-child(1){
-  
-  background-color: #b34242;
-}
+  #tabula tr:nth-child(2){
+  background-color: #b5b5b5;
+  }
+  #tabula tr:nth-child(4){
+   background-color: #b5b5b5;
+  }
+
  

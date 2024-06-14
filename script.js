@@ -1,23 +1,28 @@
 window.onload=function(){
-var canvas = document.getElementById("zimejums");
-  var ctx= canvas.getContext("2d");
-  ctx.fillStyle = "red";
-  ctx.fillRect(20,20,100,100);
+  zimetuzkanva();
+}
+function zimetuzkanva(){
+  var canva = document.getElementById("zimejums");
+  var konteksts= canva.getContext("2d");
+  konteksts.fillStyle = "red";
+  konteksts.fillRect(20,20,150,100);
 }
 function taisnsturis(){
-  var canvas = document.getElementById("zimejums");
-  var ctx= canvas.getContext("2d");
-  ctx.strokeStyle = "red";
-  ctx.strokeRect(10,10,100,100);
+  var canva = document.getElementById("zimejums");
+  var konteksts= canva.getContext("2d");
+  konteksts.strokeStyle = "red";
+  konteksts.strokeRect(60,60,150,100);
 }
 function aplis() {
-  var kanvas = document.getElementById("zimejums");
-  var konteksts = kanvas.getContext("2d");
+  var kanva = document.getElementById("zimejums");
+  var konteksts = kanva.getContext("2d");
   konteksts.beginPath();
-  konteksts.arc(50,50,20,0,2*Math.PI);
+  konteksts.arc(200,200,50,0,2*Math.PI);
   konteksts.linweWidth = 20;
-  konteksts.fillStyle = "blue";
+  konteksts.fillStyle = "pink";
+  konteksts.strokeStyle = "red";
   konteksts.fill();
+  konteksts.stroke();
 }
 function linija(){
     var kanva = document.getElementById("zimejums");
@@ -30,11 +35,11 @@ function linija(){
     konteksts.stroke();
 }
   function teksts(){
-  var kanva = document.getElementById("zimejums");
-  var konteksts = kanva.getContext("2d");
-  konteksts.font = "30px Kristen ITC";
-    konteksts.fillStyle = "yelow";
-    konteksts.fillText("Sveiki, pasaule!",200,150);
+      var kanva = document.getElementById("zimejums");
+      var konteksts = kanva.getContext("2d");
+      konteksts.font = "30px Kristen ITC";
+      konteksts.fillStyle = "pink";
+      konteksts.fillText("Sveika, Pasaule!",250,150);
   }
   
 
